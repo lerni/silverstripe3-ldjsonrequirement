@@ -1,0 +1,30 @@
+{
+    "name": "lerni/silverstripe3-ldjsonrequirement",
+    "description": "A patch for SilverStripe to add script tags with type application/ld+json in template",
+    "type": "silverstripe-patch",
+    "homepage": "http://github.com/lerni/silverstripe3-ldjsonrequirement",
+    "keywords": ["silverstripe", "schema", "JSON-LD", "patch"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Lukas Erni",
+            "email": "le@kraftausdruck.ch"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/lerni/silverstripe3-ldjsonrequirement"
+    },
+    "require": {
+        "netresearch/composer-patches-plugin": "^1.2.1"
+    },
+    "extra": {
+        "patches": {
+            "silverstripe/framework": [
+                {
+                    "title": "[PATCH]Composer installable patch to add script tags with type application/ld+json",
+                    "url": "https://gist.githubusercontent.com/lerni/582f500d3d9223ada4b7e9c155189b77/raw/0c59188cb557f7383663cb091891008b76ccb4af/requirements.patch"
+                }
+            ]
+        }
+    }
+}
