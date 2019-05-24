@@ -22,7 +22,7 @@
             "silverstripe/framework": [
                 {
                     "title": "[PATCH]Composer installable patch to add script tags with type application/ld+json",
-                    "url": "https://gist.githubusercontent.com/lerni/582f500d3d9223ada4b7e9c155189b77/raw/0c59188cb557f7383663cb091891008b76ccb4af/requirements.patch"
+                    "url": "https://gist.githubusercontent.com/lerni/582f500d3d9223ada4b7e9c155189b77/raw/bb31b1007bb68a172c5a25b7fa02c4703c72971c/requirements.patch"
                 }
             ]
         }
