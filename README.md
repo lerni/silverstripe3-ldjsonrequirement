@@ -1,5 +1,5 @@
 # SilverStripe 3 Composer installable patch to add Requirements::ldJsonScript
-This patch allows to add script tags with type `application/ld+json` to SS 3.x as you need for structured data [schema.org](https://schema.org/). In tandem with a custom you than can add any schema easily. A comfortable way to generate those json blobs is [spatie/schema-org](https://github.com/spatie/schema-org).
+This patch allows to add script tags with type `application/ld+json` to SS 3.x as used for structured data [schema.org](https://schema.org/). In tandem with a custom `Requirements_Backend` you than can add any schema easily. A comfortable way to generate those json blobs is [spatie/schema-org](https://github.com/spatie/schema-org).
 
 ## How it works
 It adds a patch since Requirements is a standard php class (no SS_Object)
@@ -30,7 +30,7 @@ Map what you like to expose in your Model like:
     }
 ```
 
-An in Template include it where appropriate.
+And include it in Template
 ```
     <% require ldJsonScript($LocalBusiness) %>
 ```
