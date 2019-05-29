@@ -9,7 +9,7 @@ Register a custom Requirements_Backend like:
 https://gist.github.com/lerni/42a656c8a337754c33de0179762d1898
 ```
 Requirements:
-  backend: 'Requirements_BackendEnhancement'
+  backend: Requirements_BackendEnhancement
 ```
 
 Map what you like to expose in your Model like:
